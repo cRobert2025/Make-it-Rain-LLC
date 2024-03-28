@@ -1,0 +1,77 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00ff0d, #3250d6, #72ef7c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .heading_button {
+    background-color: #10b125;
+  }
+
+  .featurette-heading{
+    margin-left: 20px;
+  }
+
+  .lead{
+    margin-left: 20px;
+  }
+
+  #Main {
+    background-color: #e4eed5;
+  }
+
+  .Intro{
+    border-width:3px; 
+    border-style:inset; 
+    border-color:#9dff00;
+  }
+
+  .Special_Offer{
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
+    
+  }
+  .featurette-heading{
+    color: #023b05;
+  }
+
+  .Landscaping{
+    height: 500px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 25px;
+  }
+
+  h1{
+    font-family: "Patrick Hand", cursive;
+    
+  }
+
+  h2{
+    font-family: cursive; 
+  }
+
+  .first_row{
+    margin-right: 0%;
+  }
+
+  .schlogen{
+    color: white;
+  }
+
+  .Company_Name{
+    color: white;
+  }
